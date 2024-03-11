@@ -1,0 +1,13 @@
+# This is an example inventory.yaml
+#
+
+groups:
+  - name: demo
+    targets:
+      - 127.0.0.1
+config:
+  ssh:
+    host-key-check: false
+    native-ssh: true
+    user: admin
+    run-as: admin
